@@ -1,0 +1,24 @@
+#home, #about, #cat{
+  background: url("../img/1.jpg") center 0 repeat fixed;
+  min-height: 1000px;
+  height: 1000px;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1920px;
+  position: relative;
+}
+#about{
+    background:url("../img/2.jpg")center 0 repeat fixed;
+}
+#cat{
+    background:url("../img/3.jpg")center 0 repeat fixed;
+}
+#home article, #about article, #cat article {
+  height: 458px;
+  position: absolute;
+  text-align: center;
+  top: 300px;
+  width: 100%;
+  color:#fff;
+  font-size:50px;
+}
